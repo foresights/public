@@ -35,7 +35,7 @@ for line in sys.stdin:
   ## Assigning Data in Array, Stripping-off New Line Whitespace & Splitting on Comma/Tab
   Line_Data=line.strip().split(",") # .split("\t") # .split()
   
-  ## Multiple-Assigning Line_Data Item(s)
+  #Multiple-Assigning Line_Data Item(s)
   #Wban,YearMonthDay,Time,StnType,Indicator,Conditions,Visibility,WeatherType,DryBulbTemp=Line_Data
   
   if Line_Data[8]!="-":
